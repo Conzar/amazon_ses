@@ -114,7 +114,7 @@ ${smtp_port}"
 amazonaws.com:${smtp_port}"
     }
     'EU':      {
-      $region_url = ":${smtp_port}"
+      $region_url = "email-smtp.eu-west-1.amazonaws.com:${smtp_port}"
       $region_url2 = "ses-smtp-eu-west-1-prod-345515633.eu-west-1.elb.\
 amazonaws.com:${smtp_port}"
     }
